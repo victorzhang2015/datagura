@@ -1,0 +1,9 @@
+option java_package = "com.antu.nmea.protobuf"; 
+option java_outer_classname = "GgaSentence"; 
+message Sentence{
+	required string UTCtime =1;
+	required double latitude =2;
+	required string earth =3;
+	required double longitude =4;
+	required string earth2 =5;
+}
